@@ -25,9 +25,23 @@ function closeModal(el){
     
 }
 
-
 window.onclick = function(event) {
     if (event.target == modal ||event.target == modalContainerSecondary) {
       closeModal(modal);
     }
   }
+
+  async function readCities(){
+    return new Promise(async (resolve, reject)=>{
+        const response = await fetch('public/js/estados-cidades.json')
+        .then(res=>res.json())
+        .then((res)=>{return res})
+        .catch((err)=>{return err});
+        resolve(response);
+    })
+  }
+
+  (async()=>{
+    const result = await readCities()
+    console.log(result)
+  })();
