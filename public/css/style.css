@@ -506,7 +506,7 @@ main .title .call-to-action button {
 @media screen and (max-width: 967px) {
   .container main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .container .menu {
@@ -649,7 +649,7 @@ main .title .call-to-action button {
     }
   .container main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: 96px;
     display: flex;
   }
@@ -752,6 +752,10 @@ main .title .call-to-action button {
 
 
 @media screen and (max-width: 414px) {
+  .container main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
     .title-benefits h1 {
       font-size: 28px;
     }
