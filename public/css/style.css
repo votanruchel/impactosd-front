@@ -1,0 +1,819 @@
+* {
+  margin: 0;
+  box-shadow: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f3fa;
+  font-family: "Rubik", sans-serif;
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  max-width: 1416px;
+}
+
+.container header {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  padding-left: 36px;
+}
+
+main {
+  margin-top: 146px;
+  display: flex;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu ul li {
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 24px;
+}
+
+main .title h1 {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 110%;
+  padding-bottom: 36px;
+}
+
+main .title {
+  margin-right: 24px;
+}
+
+main .title p {
+  color: #5c5c5e;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+main .title p {
+  margin-bottom: 20px;
+}
+
+main .title .call-to-action button {
+  width: 216px;
+  height: 52px;
+  background: #6c91f6;
+  color: #1c2436;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 110%;
+  border: none;
+  box-shadow: 0px 14px 19px rgba(28, 36, 54, 0.15),
+    0px 3.12708px 4.2439px rgba(28, 36, 54, 0.0894161),
+    0px 0.931014px 1.26352px rgba(28, 36, 54, 0.0605839);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.vimeo-video iframe {
+  width: 654px;
+  height: 368px;
+}
+
+.bg-hero {
+  width: 100%;
+  text-align: center;
+}
+
+.box-11 {
+  margin-top: 157px;
+  margin-bottom: 298px;
+  height: 325px;
+  background: #dfe2eb;
+  box-shadow: 0px 9px 31px rgba(108, 145, 246, 0.19),
+    0px 2.01027px 6.92426px rgba(108, 145, 246, 0.11326),
+    0px 0.598509px 2.06153px rgba(108, 145, 246, 0.0767396);
+  border-radius: 8px 32px;
+}
+
+.chevron {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-chevron {
+  margin-top: -20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #6c91f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-benefits h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 110%;
+}
+
+.title-benefits span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  color: #6c91f6;
+}
+
+.content {
+  height: 162px;
+  margin-top: 48px;
+  margin-left: 82px;
+  margin-right: 82px;
+  display: flex;
+}
+
+.benefits-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits-right span {
+  color: #5c5c5e;
+}
+
+.title-benefits span:last-child {
+  padding-left: 58px;
+}
+
+.icons {
+  width: 72px;
+  height: 72px;
+  background: #f0f3fa;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.icon-one {
+  width: 231px;
+}
+
+.icon-one:nth-child(1) {
+  margin-left: 28px;
+}
+
+/*<------------------------Depoimeitos -------------------->*/
+.content-depositions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-depositions h2 {
+  color: #1c2436;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+.content-sevicoes {
+  color: #1c2436;
+  margin-top: 338px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+}
+
+.lines {
+  width: 130px;
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 16px;
+}
+
+.line {
+  width: 72px;
+  height: 3px;
+  background: #6c91f6;
+  border-radius: 9px;
+}
+
+.line-2 {
+  width: 24px;
+  height: 3px;
+
+  background: #1c2436;
+  border-radius: 9px;
+}
+
+.arrow {
+  display: flex;
+}
+
+.arrow .button-left {
+  margin-right: 25px;
+}
+
+.container-swiper {
+  max-width: 1416px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  max-width: 456px;
+  height: 278px !important;
+  padding: 24px 36px;
+  background: #dfe2eb;
+  border-radius: 8px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin-right: 24px;
+}
+
+.swiper-slide h4 {
+  color: #1c2436;
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 110%;
+}
+
+.swiper-slide p {
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #5c5c5e;
+}
+
+/* <------------ plan------------->*/
+
+.container-box-plan {
+  display: flex;
+}
+
+.box-plan {
+  width: 457px;
+  height: 583px;
+  border-radius: 9px 32px;
+  margin-right: 25px;
+  margin-top: 78px;
+  background-color: #dfe2eb;
+}
+
+.inlustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inlustration img {
+  width: 409px;
+  height: 335px;
+}
+
+.title-card-plan {
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+}
+
+.title-plan {
+  margin-bottom: 58px;
+}
+
+.title-plan h4 {
+  color: #1c2436;
+  margin-bottom: 55px;
+}
+
+.title-plan-2 {
+    margin-bottom: 58px;
+}
+
+.title-plan-2 span {
+    color: red;
+    font-size:16px;
+    font-weight: 400;
+}
+
+.title-premium {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 110%;
+
+  margin-bottom: 59px;
+}
+
+.text-value {
+    font-size: 32px;
+    margin-bottom: 42px;
+}
+
+
+.title-plan span {
+  color: red;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.button-plan-free {
+  width: 100%;
+  height: 55px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f3fa;
+  border: 3px solid #6c91f6;
+  color: #1c2436;
+  border-radius: 8.14815px;
+  cursor: pointer;
+}
+
+.button-plan-premium {
+  width: 100%;
+  height: 55px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6c91f6;
+  color: #1c2436;
+  border-radius: 8.14815px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-plan-premium img {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.title-plan button img {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.title-plan h4 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+.ul-list-plan ul {
+  color: #5c5c5e;
+  list-style-type: none;
+}
+
+.ul-list-plan ul li {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.ul-list-plan img {
+  margin-right: 16px;
+}
+
+/*<---------------- about-------------->*/
+.about-primary {
+    max-width: 1416px;
+    margin: auto;
+    padding-right: 24px;
+    padding-left:24px ;
+
+    padding-bottom: 90px;
+}
+.about {
+  margin-top: 56px;
+  color: #1c2436;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+.about-p {
+  margin-top: 24px;
+  color: #5c5c5e;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .vimeo-video iframe {
+    width: 624px;
+    height: 348px;
+  }
+}
+
+@media screen and (max-width: 1306px) {
+  main .title h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 110%;
+    padding-bottom: 36px;
+  }
+
+  .vimeo-video iframe {
+    width: 557px;
+    height: 306px;
+  }
+}
+
+@media screen and (max-width: 1218px) {
+  main .title h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 110%;
+    padding-bottom: 36px;
+  }
+
+  .vimeo-video iframe {
+    width: 533px;
+    height: 282px;
+  }
+
+  .box-11 {
+    height: 500px;
+  }
+
+  .title-benefits {
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .icon-one:nth-child(1) {
+    margin-left: 0px;
+  }
+
+  .content .title-benefits {
+    padding-bottom: 48px;
+  }
+
+  .inlustration {
+    display: none;
+  }
+
+  .container-box-plan {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .container main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .menu {
+    display: none;
+  }
+
+  main .title h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 110%;
+    padding-bottom: 36px;
+  }
+
+  .container main .title {
+    margin-right: 0px;
+  }
+
+  .vimeo-video {
+    margin-top: 74px;
+  }
+
+  .vimeo-video iframe {
+    width: 100%;
+  }
+
+  .box-11 {
+    height: 900px;
+  }
+
+  .benefits-right {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .icon-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 26px;
+    margin-bottom: 28px;
+  }
+
+  .icons {
+    width: 72px;
+    height: 72px;
+  }
+
+  .icon-one span {
+    width: 100%;
+  }
+
+  .box-plan {
+    width: 409px;
+    height: 535px;
+  }
+
+
+  .title-plan {
+    margin-bottom: 58px;
+  }
+  
+  .title-plan h4 {
+    color: #1c2436;
+    margin-bottom: 55px;
+  }
+  
+  .title-plan-2 {
+      margin-bottom: 58px;
+  }
+  
+  .title-plan-2 span {
+      color: red;
+      font-size:16px;
+      font-weight: 400;
+  }
+  
+  .title-premium {
+    margin-bottom: 29px;
+  }
+  
+  .text-value {
+      margin-bottom: 64px;
+  }
+  
+  
+  .title-plan span {
+    color: red;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+  }
+  
+  .button-plan-free {
+
+    font-size: 12px;
+
+  }
+  
+  .button-plan-premium {
+    font-size: 12px;
+    
+  }
+  
+  .title-plan button img {
+    margin-left: 8px;
+    width: 13px;
+    height: 13px;
+  }
+  .button-plan-premium img {
+    margin-left: 8px;
+    width: 13px;
+    height: 13px;
+  }
+  
+  .title-plan h4 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 110%;
+  }
+  
+  
+  .ul-list-plan ul li {
+    font-size: 12px;
+  }
+  
+  .ul-list-plan img {
+    width: 15px;
+    height: 15px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .logo h1 {
+        display: none;
+    }
+  .container main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    display: flex;
+  }
+
+  main .title .call-to-action {
+    text-align: center;
+  }
+
+  main .title .call-to-action button {
+    width: 100%;
+  }
+
+  main .title h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 110%;
+    padding-bottom: 36px;
+  }
+
+  .container main .title {
+    margin-right: 0px;
+  }
+
+  .vimeo-video iframe {
+    width: 100%;
+    height: 240px;
+  }
+
+  .bg-hero {
+    display: none;
+  }
+
+  main .title {
+    margin-right: 24px;
+  }
+
+  main .title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  main .title p {
+    margin-bottom: 20px;
+  }
+
+  .title-benefits h1 {
+    font-size: 32px;
+    line-height: 110%;
+  }
+
+  .title-benefits span {
+    font-size: 28px;
+    line-height: 110%;
+  }
+
+  .swiper-slide {
+    max-width: 384px;
+  }
+
+  .box-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 353px;
+    height: 479px;
+  }
+
+  .title-premium {
+    font-size: 24px;
+  }
+
+  .title-plan h4 {
+    font-size: 24px;
+  }
+
+  .title-plan {
+    margin-bottom: 20px;
+  }
+
+  .title-plan-2 {
+    margin-bottom: 20px;
+  }
+
+  .content-sevicoes {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 610px) { 
+    .container-box-plan {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .title-benefits h1 {
+      font-size: 28px;
+    }
+
+    .title-benefits span {
+      font-size: 24px;
+    }
+
+    .title-benefits span:last-child {
+      font-size: 16px;
+      padding-left: 44px;
+    }
+  
+
+  .box-plan  {
+    margin-right: 0;
+  }
+  
+  .content-sevicoes h2 {
+    font-size: 24px;
+  }
+
+  .swiper-slide {
+    max-width: 246px;
+    height: 270px !important; 
+    }
+
+    .swiper-slide h4 {
+        font-size: 24px;
+        padding-top: 7px;
+    }
+
+    .swiper-slide p {
+        font-size: 12px;
+    }
+
+    .content-sevicoes {
+        margin-top: 161px;
+    }
+
+    .box-plan {
+        width: 314px;
+    }
+
+    .about-p {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+
+    .content-depositions {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-depositions .arrow {
+        margin-top: 83px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .container-swiper {
+        padding-top: 62px;
+    }
+
+}
