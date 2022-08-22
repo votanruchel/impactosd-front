@@ -1,18 +1,20 @@
 .body-container {
-    z-index: 1;
+    display: none;
+    z-index: 100;
     margin: -25px -2px;
-    background: rgba(240, 243, 250, 0.72);
+    background: rgba(40, 40, 40, 0.72);
     width: 100vw;
     height: 100vh;
     position: fixed;
 }
 
-.container-form {
-    max-width: 1416px;
-    margin: 190px auto;
+.container-modal-form{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+.container-form {
+    margin: 190px auto;
 }
 
 .form-box {
@@ -152,3 +154,16 @@
 
 
 }
+
+.fadeIn-modal { animation: fadeIn 0.7s; }
+.fadeOut-modal { animation: fadeOut 0.7s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }

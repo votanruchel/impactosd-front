@@ -18,10 +18,12 @@
   </head>
 
   <body>
-    <div class="body-container" style="display: none;">
-        <div class="container-form">
-            <div class="form-box">
+    <div class="body-container">
+      <div class="container-modal-form">
+        <div class="container-form fadeIn-modal" >
+            <div class="form-box" >
                 <div class="form-box-container">
+                  <button onclick="closeModal(document.querySelector('.body-container'))">close modal</button>
                     <div class="section-registration">
                         <form action="">
                             <div class="user-name">
@@ -64,6 +66,7 @@
                 </div>
             </div>
         </div>
+      </div>
     </div>
 
     <div class="container">
@@ -91,7 +94,7 @@
             São mais de 500 empresas em sua cidade, não perca essa oportunidade.
           </p>
           <div class="call-to-action">
-            <button>Cadastre-se</button>
+            <button onclick="toggleModal()">Cadastre-se</button>
           </div>
         </div>
 
@@ -514,6 +517,7 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./public/js/main.js"></script>
 
     <script>
       var swiper = new Swiper(".swiper-container", {
