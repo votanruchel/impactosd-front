@@ -45,3 +45,7 @@ window.onclick = function(event) {
     const result = await readCities()
     console.log(result)
   })();
+
+
+
+ola mundo
