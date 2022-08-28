@@ -31,3 +31,19 @@ window.onclick = function(event) {
       closeModal(modal);
     }
   }
+
+
+      fetch('estados-cidades.json')
+      .then(res=>res.json())
+      .then(res=>console.log(res))
+
+
+
+
+
+
+
+
+
+
+
