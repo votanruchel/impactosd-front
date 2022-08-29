@@ -49,11 +49,4 @@ window.onclick = function(event) {
 
 
 
-function planPremium() {
-
-  
-  
-}
-
-
 
