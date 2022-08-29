@@ -21,9 +21,17 @@
     <div class="body-container">
       <div class="container-modal-form">
         <div class="container-form fadeIn-modal" >
+          
             <div class="form-box" >
+              <div class="modal-close-btn">
+                <button onclick="closeModal(document.querySelector('.body-container'))"><img src="public/img/cancel.svg" alt="close"></button>
+              </div>
                 <div class="form-box-container">
-                  <button onclick="closeModal(document.querySelector('.body-container'))">close modal</button>
+                  <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="modal-title">
+                      <h2>Faça seu cadastro</h2>
+                    </div>
+                  </div>
                     <div class="section-registration">
                         <form action="">
                             <div class="user-name">
@@ -59,7 +67,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <button class="button-to-send-all-data" type="submit" >Enviar</button>
+                            <button class="button-to-send-all-data" type="submit" >ENVIAR</button>
                         </form>
                     </div>
                     <div class="captcha"></div>
@@ -68,7 +76,7 @@
         </div>
       </div>
     </div>
-
+ 
     <div class="container">
       <header>
         <div class="logo">
@@ -426,7 +434,7 @@
                 <div class="title-plan">
                   <h4>Plano Grátis</h4>
                   <h4>R$ 0,00</h4>
-                  <button class="button-plan-free">
+                  <button class="button-plan-free" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=5554991310250&text=Ol%C3%A1%2C%20estou%20interessado%20no%20plano%20*Gratuito*%2C%20pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20%3F'">
                     QUERO APENAS TESTAR
                     <img src="public/img/Arrouw-2.svg" alt="" />
                   </button>
@@ -456,8 +464,8 @@
                   <h4 class="title-premium">Plano Premium</h4>
                   <span> <strike>$ 69,90</strike> 30% OFF</span>
                   <h4 class="text-value">R$ 49,90</h4>
-                  <button class="button-plan-premium" onclick="toggleModal()">
-                    QUERO O ENVIO COMPLETO<img
+                  <button class="button-plan-premium" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=5554991310250&text=Ol%C3%A1%2C%20estou%20interessado%20no%20plano%20*Premium*%2C%20pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20%3F'">
+                  QUERO O ENVIO COMPLETO<img
                       src="public/img/Arrouw-2.svg"
                       alt=""
                     />
@@ -491,7 +499,13 @@
     </section>
 
     <section class="about-primary">
-      <h2 class="about">Sobre</h2>
+      <div class="about-box">
+        <h2 class="about">Sobre</h2>
+      <div class="lines">
+        <div class="line"></div>
+        <div class="line-2"></div>
+        <div class="line-2"></div>
+      </div>
       <p class="about-p">
         Somos uma agencia de Publicidade fundada em 2015, com ênfase em captação
         de clientes para empresas de recrutamento e seleção de pessoas.
@@ -514,6 +528,8 @@
         cadastra-se em nossa plataforma e envia seu currículo através de nossa
         plataforma de envio.
       </p>
+      </div>
+      
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
