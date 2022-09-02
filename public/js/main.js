@@ -48,5 +48,56 @@ window.onclick = function(event) {
 
 
 
+// Upload annex 
+
+let drop_ = document.querySelector('.area-upload-annex #upload-file');
+drop_.addEventListener('dragenter', function(){
+	document.querySelector('.area-upload-annex .label-upload').classList.add('highlight');
+});
 
 
+
+drop_.addEventListener('dragleave', function(){
+	document.querySelector('.area-upload-annex .label-upload').classList.remove('highlight');
+});
+
+drop_.addEventListener('drop', function(){
+	document.querySelector('.area-upload-annex .label-upload').classList.remove('highlight');
+});
+
+
+
+function validarArquivo(file){
+	console.log(file);
+	// Tipos permitidos
+	var mime_types = [ 'image/jpeg', 'image/png' ];
+	
+	// Validar os tipos
+	if(mime_types.indexOf(file.type) == -1) {
+		return {"error" : "O arquivo " + file.name + " não permitido"};
+	}
+
+	// Apenas 2MB é permitido
+	if(file.size > 2*1024*1024) {
+		return {"error" : file.name + " ultrapassou limite de 2MB"};
+	}
+
+	// Se der tudo certo
+	return {"success": "Enviando: " + file.name};
+}
+
+
+
+// document.querySelector('#upload-file').addEventListener('change', function() {
+//   var files = this.files;
+//   for(var i = 0; i < files.length; i++){
+//   var info = validarArquivo(files[i]);
+
+//  let = document.querySelectorAll('.label-upload');
+
+//   if (info){
+
+//   }
+      
+//   };
+//   });

@@ -67,6 +67,18 @@
                                     </select>
                                 </div>
                             </div>
+
+                            <div class="area-upload-annex" >
+
+                              <label for="upload-file" class="label-upload">
+                                <div class="texto">Clique para enviar o seu curriculo</div>
+                              </label>
+                              <input type="file" accept="image/jpg,image/png" id="upload-file" multiple/>
+                              
+                              <div class="lista-uploads">
+                                
+                              </div>
+                            </div>
                             <button class="button-to-send-all-data" type="submit" >ENVIAR</button>
                         </form>
                     </div>
@@ -85,9 +97,9 @@
         </div>
         <div class="menu">
           <ul>
-            <li>Serviços</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+            <li> <a href="#services">Serviços</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li onclick="toggleModal()">Contato</li>
           </ul>
         </div>
       </header>
@@ -418,10 +430,10 @@
           </div>
         </div>
       </div>
-      <section>
+      <section  class="t-servicos">
         <div class="content-sevicoes">
           <div class="title-sevicos">
-            <h2>Serviços</h2>
+            <h2 id="services">Serviços</h2>
             <div class="lines">
               <div class="line"></div>
               <div class="line-2"></div>
@@ -495,7 +507,7 @@
       </section>
     </section>
 
-    <section class="about-primary">
+    <section id="about" class="about-primary">
       <div class="about-box">
         <h2 class="about">Sobre</h2>
       <div class="lines">
